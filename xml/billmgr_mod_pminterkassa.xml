@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+  <plugin name="pminterkassa">
+    <group>payment_method</group>
+    <author>John Smith</author>
+    <msg name="desc_short" lang="ru">Интеркасса</msg>
+    <msg name="desc_short" lang="en">Interkassa</msg>
+    <msg name="desc_full" lang="ru">Интеграция с Интеркасса</msg>
+    <msg name="desc_full" lang="en">Interkassa integration </msg>
+    <msg name="price" lang="ru">Бесплатно</msg>
+    <msg name="price" lang="en">Free</msg>
+  </plugin>
+
+  <metadata name="paymethod.edit.interkassa" type="form">
+    <form>
+      <page name="methodprops">
+        <field name="ik_co_id">
+          <input type="text" name="ik_co_id" required="yes"/>
+        </field>
+        <field name="secret">
+          <input type="text" name="secret" private="yes"/>
+        </field>
+      </page>
+    </form>
+  </metadata>
+
+  <lang name="en">
+    <messages name="plugin">
+      <msg name="desc_short_pminterkassa">Interkassa</msg>
+      <msg name="desc_full_pminterkassa">Interkassa</msg>
+      <msg name="price_pminterkassa">Free</msg>
+    </messages>
+    <messages name="label_paymethod">
+      <msg name="pminterkassa">Interkassa</msg>
+      <msg name="module_pminterkassa">Interkassa</msg>
+    </messages>
+    <messages name="paymethod.edit.interkassa">
+      <msg name="ik_co_id">Identifier</msg>
+      <msg name="hint_ik_co_id">Identifier</msg>
+      <msg name="secret">Secret</msg>
+      <msg name="hint_secret">Secret</msg>
+    </messages>
+  </lang>
+
+  <lang name="ru">
+    <messages name="plugin">
+      <msg name="desc_short_pminterkassa">Интеркасса</msg>
+      <msg name="desc_full_pminterkassa">Интеграция с Интеркасса</msg>
+      <msg name="price_pminterkassa">Бесплатно</msg>
+    </messages>
+    <messages name="label_paymethod">
+      <msg name="pminterkassa">Интеркасса</msg>
+      <msg name="module_pminterkassa">Интеркасса</msg>
+    </messages>
+    <messages name="paymethod.edit.interkassa">
+      <msg name="ik_co_id">Идентификатор</msg>
+      <msg name="hint_ik_co_id">Идентификатор кассы</msg>
+      <msg name="secret">Секретный ключ</msg>
+      <msg name="hint_secret">Секретный ключ проверки подписи платежа</msg>
+    </messages>
+  </lang>
+</mgrdata>
