@@ -11,7 +11,7 @@ public:
 		feature_map[PAYMENT_FEATURE_REDIRECT] = true;
 		feature_map[PAYMENT_FEATURE_NOT_PROFILE] = true;
 
-		param_map[PAYMENT_PARAM_PAYMENT_SCRIPT] = "/mancgi/2copayment";
+		param_map[PAYMENT_PARAM_PAYMENT_SCRIPT] = "/mancgi/interkassapayment";
 	}
 };
 
